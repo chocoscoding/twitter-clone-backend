@@ -24,7 +24,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-	origin: ['http://localhost:3000', 'https://chocos-x-clone.vercel.app']
+	origin: ['https://chocos-x-clone.vercel.app']
 };
 
 app.use(cors(corsOptions));
