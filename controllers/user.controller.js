@@ -151,7 +151,11 @@ export const updateUser = async (req, res) => {
 
 		return res.status(200).json(user);
 	} catch (error) {
+		if (error.message.includes('test.users index: username_1 dup key')) {
+			return res.status(500).json({ error: 'Username taken' });
+		}
+
 		console.log("Error in updateUser: ", error.message);
-		res.status(500).json({ error: error.message });
+		return res.status(500).json({ error: error.message });
 	}
 };
