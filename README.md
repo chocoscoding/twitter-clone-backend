@@ -34,7 +34,6 @@ Visit Full website here 👉 [live website](https://chocos-x-clone.vercel.app/)
 - ❤️ Like/Unlike Post
 - 💬 Comment to a Post
 - 👥 Follow/Unfollow Users
-- 📱 Completely Responsive
 - 🔁 Repost/Retweet
 - 🔊 Notification
 - 🏢 Account management
